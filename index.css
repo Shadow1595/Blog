@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
 body{
 	background: #E4DBDD;
+}
+
+.logo{
+	margin-top: 20px;
 }
 
 .menu li{
@@ -9,9 +14,17 @@ body{
 	font-size: 	20px;
 }
 
+.menu li a{
+	color: Black;
+	text-decoration: Blue;
+
+}
+
 h2{
 	margin-top: 50px;
 	margin-left: 500px;
+	font-family: 'Roboto', sans-serif;
+
 
 }
 
@@ -19,6 +32,7 @@ h3{
 	margin-top: 50px;
 	margin-right: 500px;
 	font-size: 35px;
+	font-family: 'Roboto', sans-serif;
 
 }
 
