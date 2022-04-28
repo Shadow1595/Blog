@@ -6,7 +6,7 @@
 	<title></title>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
-	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/index.css">
 
 
 <body>
@@ -15,6 +15,9 @@
 	<div class="row">
 		<div class="col-sm-3">
 		<img src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Am%C3%A9rica_Noticias.png" width="150" class="logo">
+
+		<h1><?php bloginfo('nombre'); ?></h1>
+
 		</div>
 
 		<div class="col-sm-9">
@@ -34,6 +37,23 @@
 
 <section class="container">
 	<center>
+
+		<?php $articulos = new WP_Query([
+			'showpost' => 3
+			]);
+
+		while ($articulos->have_posts()) {
+		$articulos->the_post();
+
+		the_title();
+		echo '<hr>';
+		} ?>
+
+
+
+
+
+
 	<h2>Guerra Rusia Vs Ucrania</h2>
 	<div class="row">
 		<div class="col-sm-5">
@@ -45,7 +65,7 @@
 		Sobre el terreno, la situación de Mariupol es objeto de versiones diferentes. Aunque Putin ha celebrado la toma de la ciudad, pese a haber renunciado a asaltar la planta donde resisten combatientes ucranianos, fuentes de este país y el presidente estadounidense Biden dudan de que tenga el control total sobre esta localidad de gran importancia estratégica.</p>
 		</div>
 	</div>
-	
+
 	<h3>Peru vs Paraguay</h3>
 	<div class="row">
 		
