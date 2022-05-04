@@ -1,25 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
-</head>
-<body>
-<header>
-	<center>
-		<img src="https://uploads.turbologo.com/uploads/design/hq_preview_image/1475872/draw_svg20210702-6381-1bvxca.svg.png" width="300" >
-		<ul>
-			<li><a href="#">Salud</a></li>
-			<li><a href="#">Deporte</a></li>
-			<li><a href="#">Actualidad</a></li>
-			<li><a href="#">Entretenimiento</a></li>
-			<li><a href="#">Destacado</a></li>		
 
-
-
-		</ul>
-</center>
 <section>
 	<section>
 	<center>
