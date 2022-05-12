@@ -34,7 +34,7 @@
 				<?php the_post_thumbnail('medium', ["class"=>'img-fluid']); ?>
 				<p><?php the_date('d/m/Y'); ?></p>
 				<h3>
-					<a href='<?php the_permalink(); ?>'>
+					<a href='<?php the_permalink(); ?>'	>
 						<?php the_title(); ?>
 					</a>
 				</h3>
